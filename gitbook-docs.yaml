@@ -1,0 +1,24 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: StoneLand
+  structure:
+    - type: section
+      key: section-1
+      title: Home
+      path: home
+      icon: house
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Home
+          path: home
+          default: true
+          content:
+            directory: ./home
+            language: ru
+    - type: section-group
+      key: section-group-1
+      title: Лор сервера
+      draft: true
+      children: []
